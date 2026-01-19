@@ -7,37 +7,52 @@
     <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
+    
+    <!-- Create navbar class to hold navbar items -->
     <nav class="navbar">
         <div class="navbar__container">
+            
             <a href="/" id="navbar__logo">NEXT</a>
             <div class="navbar__toggle" id="mobile-menu">
+                <!-- span is used to stylize a specific part of a text or a piece of content without affecting other content surrounding it -->
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
+
+            <!-- Create items for navbar menu -->
             <ul class="navbar__menu">
+
+                <!-- Home navbar -->
                 <li class="navbar__item">
                     <a href="/" class="navbar__links">
                         Home
                     </a>
                 </li>
+
+                <!-- Tech navbar -->
                 <li class="navbar__item">
-                    <a href="/tech.html" class="navbar__links">
+                    <a href="/tech.html" class="navbar__links"> <!-- Will create tech.html -->
                         Tech
                     </a>
                 </li>
+
+                <!-- Products navbar -->
                 <li class="navbar__item">
                     <a href="/" class="navbar__links">
                         Products
                     </a>
                 </li>
+
+                <!-- Sign Up button -->
                 <li class="navbar__btn">
                     <a href="/" class="button">
                         Sign Up
                     </a>
                 </li>
-            </ul>
-        </div>
-    </nav>
+            </ul> <!-- End navbar__menu -->
+        </div> <!-- End navbar__container -->
+    </nav> <!-- End navbar class -->
 </body>
+
 </html>
